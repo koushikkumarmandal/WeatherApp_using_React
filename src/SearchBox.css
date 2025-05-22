@@ -1,0 +1,40 @@
+.SearchBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: linear-gradient(135deg, #e0f7fa, #80deea);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 2rem auto;
+}
+
+.SearchBox h3 {
+  font-size: 1.5rem;
+  color: #00796b;
+  margin-bottom: 1rem;
+}
+
+.SearchBox form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.SearchBox input {
+  width: 100%;
+  font-size: 1rem;
+}
+
+.SearchBox button {
+  margin-top: 1rem;
+}
+
+.SearchBox p {
+  color: red;
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
